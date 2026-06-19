@@ -55,7 +55,7 @@ cd Backend
 npm install
 node server.js
 ```
-### Backend runs on render
+### Backend runs on render backend
 3. Setup Frontend
 ```bash
 # Open a new terminal
