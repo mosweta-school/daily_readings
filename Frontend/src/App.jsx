@@ -20,7 +20,7 @@ export default function App() {
     setLoading(true);
     setError(false);
     try {
-      const res = await fetch(`http://localhost:5000/api/liturgy?date=${date}`);
+      const res = await fetch(`https://dailyreadingsbackend.onrender.com/api/liturgy?date=${date}`);
       if (!res.ok) throw new Error("Failed request");
       const json = await res.json();
 
