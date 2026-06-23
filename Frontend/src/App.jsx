@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Readings from "./components/Readings";
 import Admin from "./components/Admin";
 
-export default function Root() {
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
